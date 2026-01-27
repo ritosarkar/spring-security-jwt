@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.spring.security</groupId>
-	<artifactId>springSecurityJWT</artifactId>
+	<artifactId>spring-security-jwt</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>springSecurityJWT</name>
+	<name>spring-security-jwt</name>
 	<description>Demo spring security using Spring Starter</description>
 	<url/>
 	<licenses>
