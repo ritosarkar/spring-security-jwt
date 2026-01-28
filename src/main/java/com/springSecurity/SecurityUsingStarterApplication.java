@@ -24,7 +24,7 @@ But in case of regular spring application mentioning this annotation is mandator
 @SpringBootApplication
 @EnableWebSecurity
 public class SecurityUsingStarterApplication {
-
+   //test
 	public static void main(String[] args) {
 		SpringApplication.run(SecurityUsingStarterApplication.class, args);
 	}
