@@ -69,7 +69,7 @@ public class UserController {
     public ResponseEntity<LoginResponseDTO> apiLogin(@RequestBody LoginRequestDTO loginRequest) {
         String JWT = "";
         Authentication authentication = UsernamePasswordAuthenticationToken.unauthenticated(
-                loginRequest.userName(),
+                loginRequest.username(),
                 loginRequest.password()
         );
         Authentication authenticationRes = authenticationManager.authenticate(authentication);
