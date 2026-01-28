@@ -21,7 +21,7 @@ public class RequestValidationBeforeFilter implements Filter {
                          FilterChain filterChain) throws IOException, ServletException {
         HttpServletRequest request=(HttpServletRequest)servletRequest;
         HttpServletResponse response=(HttpServletResponse) servletResponse;
-        String header = request.getHeader(HttpHeaders.AUTHORIZATION).trim();
+        String header = request.getHeader(HttpHeaders.AUTHORIZATION);
         //First extract the value from header without Basic
         if(null!= header){
             if(StringUtils.startsWithIgnoreCase(header,"Basic ")){
